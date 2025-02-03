@@ -1,0 +1,14 @@
+# 数据集路径
+train: E:\Downloads\mahjong-dataset-master\train\mj-dataset\aug-images\train
+val: E:\Downloads\mahjong-dataset-master\train\mj-dataset\aug-images\val
+
+# 类别数量
+nc: 34  # 类别数量（不包括花牌）
+
+# 类别名称（中文）
+names: [
+    '一饼', '二饼', '三饼', '四饼', '五饼', '六饼', '七饼', '八饼', '九饼',
+    '一条', '二条', '三条', '四条', '五条', '六条', '七条', '八条', '九条',
+    '一万', '二万', '三万', '四万', '五万', '六万', '七万', '八万', '九万',
+    '东风', '南风', '西风', '北风', '红中', '发财', '白板'
+]
